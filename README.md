@@ -1,3 +1,7 @@
+# TF-Jitsi
+
+I wanted to deploy Jitsi under a subdomain on AWS in 5 minutes, so I built this. Give it a try.
+
 # What you'll need
 
 * Terraform installed (Download it [here](https://www.terraform.io/downloads.html))
@@ -15,7 +19,7 @@
 
 That's it!
 
-# Setup
+# Deploying
 
 1. Set your config variables by editing `scripts/common.sh`
     1. Set `subdomain` to be the subdomain you wish your installation to appear under, for example `test`.

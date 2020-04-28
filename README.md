@@ -103,7 +103,9 @@ simulcast (resulting in more efficient bandwidth usage), while others don't.
 
 # Terraform Architecture
 
-There's two Terraform modules: "base" and "jitsi"
+There's two Terraform modules: "base" and "jitsi". I structured it this way because I wanted the flexibility to create
+multiple subdomain deployments using a common infrastructure. This meant that the base had to be separately managed TF
+state.
 
 ## Base module
 

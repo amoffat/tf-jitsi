@@ -62,7 +62,7 @@ on.
 
 1. Ensure `scripts/common.sh` is set to the values of the subdomain you wish to destroy. **This is important.**
 1. Run `scripts/destroy_subdomain.sh`
-1. Examine the output to ensure that the resources listed are indeed what you want to destroy.
+1. Examine the output to ensure that the resources listed are indeed what you want to destroy. There should be 17.
 1. When ready, type "yes" and press return.
 
 ## The region-based infrastructure
@@ -70,7 +70,7 @@ on.
 This will teardown the common infrastructure for a particular region.
 
 1. Run `scripts/destroy_base.sh <region_name>`
-1. Examine the output to ensure that the resources listed are indeed what you want to destroy.
+1. Examine the output to ensure that the resources listed are indeed what you want to destroy. There should be 4.
 1. When ready, type "yes" and press return.
 
 # What is tf-jitsi doing?

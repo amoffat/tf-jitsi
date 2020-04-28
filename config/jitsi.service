@@ -1,0 +1,11 @@
+[Unit]
+Description=Start TF-Jitsi services
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ec2-user/docker-jitsi-meet
+ExecStart=/home/ec2-user/tf-jitsi/jitsi/scripts/launch_jitsi.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

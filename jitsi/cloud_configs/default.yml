@@ -16,7 +16,7 @@ runcmd:
   - sudo -u ec2-user git clone --single-branch --branch ${jitsi_branch} https://github.com/jitsi/docker-jitsi-meet.git ~ec2-user/docker-jitsi-meet
   - curl -L https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64 -o /usr/local/bin/yq
   - chmod +x /usr/local/bin/yq
-  - sudo -u ec2-user git clone --single-branch --branch ${tf_jitsi_branch} git@github.com:amoffat/tf-jitsi.git ~ec2-user/tf-jitsi
+  - sudo -u ec2-user git clone --single-branch --branch ${tf_jitsi_branch} https://github.com/amoffat/tf-jitsi.git ~ec2-user/tf-jitsi
   - sudo -u ec2-user ~ec2-user/tf-jitsi/jitsi/scripts/install_configs.sh
   - systemctl daemon-reload
   - systemctl enable jitsi

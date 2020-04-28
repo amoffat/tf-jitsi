@@ -135,7 +135,8 @@ If you plan to customize tf-jitsi, there's a few tricks you can use.
 
 ## Use a branch
 
-You can specify custom branches in `scripts/common.sh`.
+You can specify custom branches in `scripts/common.sh`. You'll also need to change `jitsi/cloud_configs/default.yml`
+to use your own fork repo.
 
 ## Tainting an instance
 

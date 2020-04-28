@@ -1,6 +1,8 @@
 # tf-jitsi
 
-I wanted to deploy Jitsi under a subdomain on AWS in 5 minutes, so I built this. Give it a try.
+I wanted to deploy Jitsi under a subdomain on AWS in 5 minutes, so I built this. My partner used it exclusively,
+instead of Zoom, [to teach her modern dance classes](https://www.youtube.com/watch?v=a76cv7w1tyQ) to students during
+the coronavirus quarantine. Give it a try.
 
 # What you'll need
 

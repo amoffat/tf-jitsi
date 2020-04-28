@@ -60,6 +60,7 @@ few minutes before hitting the url.** It typically takes around 5 minutes before
 This will teardown an individual subdomain but leave up the common infrastructure that other subdomains may be relying
 on.
 
+1. Ensure `scripts/common.sh` is set to the values of the subdomain you wish to destroy. **This is important.**
 1. Run `scripts/destroy_subdomain.sh`
 1. Examine the output to ensure that the resources listed are indeed what you want to destroy.
 1. When ready, type "yes" and press return.

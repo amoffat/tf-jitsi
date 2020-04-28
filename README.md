@@ -1,4 +1,4 @@
-# TF-Jitsi
+# tf-jitsi
 
 I wanted to deploy Jitsi under a subdomain on AWS in 5 minutes, so I built this. Give it a try.
 

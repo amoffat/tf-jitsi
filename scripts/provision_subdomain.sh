@@ -10,7 +10,7 @@ base_tf_dir=$this_dir/../base/
 # first let's deploy the base infrastructure (VPC, routing tables, etc)
 cd "$base_tf_dir"
 
-if [ ! -d "./terraform" ]; then
+if [ ! -d .terraform ]; then
     terraform init
 fi
 
@@ -29,7 +29,7 @@ terraform apply -auto-approve
 # now let's deploy an individual jitsi installation on a subdomain under the base infrastructure
 cd "$jitsi_tf_dir"
 
-if [ ! -d "./terraform" ]; then
+if [ ! -d .terraform ]; then
     terraform init
 fi
 

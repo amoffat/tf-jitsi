@@ -14,6 +14,7 @@ terraform destroy \
     -var region="$region" \
     -var tf_jitsi_branch="$tf_jitsi_branch" \
     -var jitsi_branch="$jitsi_branch" \
+    -var key_name="$key_name" \
     -var instance_type="$instance_type" \
     -var dns_zone="$dns_zone" \
     -var cert="$cert_arn"

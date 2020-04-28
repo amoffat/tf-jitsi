@@ -27,6 +27,7 @@ That's it!
     1. Set `subdomain` to be the subdomain you wish your installation to appear under, for example `test`.
     1. Set `region` to be the AWS region. I use `us-west-2`. **This must be the same region as your keypair and certificate.** See the [full list](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).
     1. Change the `instance_type` to a machine with the power you want. See the [full list](https://www.ec2instances.info/).
+    1. Set the `key_name` to be the name of your SSH keypair created in AWS.
     1. Set `dns_zone`. It will look like `Z4T3BDVSEN6BC`
     1. Set `cert_arn`. It will start with `arn:aws:acm:`
     1. If you wish to use non-standard branches, change `jitsi_branch` and `tf_jitsi_branch`.
